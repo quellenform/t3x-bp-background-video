@@ -1,0 +1,12 @@
+plugin.tx_bootstrappackage.view.partialRootPath = EXT:bp_background_video/Resources/Private/Partials/
+
+plugin.bootstrap_package.settings {
+  scss {
+    $hero-font-scale = 1.2
+    $hero-font-scale-sm = 1.6
+    $hero-font-scale-md = 1.6
+    $hero-font-scale-lg = 1.6
+    $hero-font-scale-xl = 2
+    $hero-font-scale-xxl = 2
+  }
+}

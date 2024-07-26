@@ -1,0 +1,8 @@
+page {
+  includeCSS {
+    bp_background_video = EXT:bp_background_video/Resources/Public/Scss/_BpBackgroundVideo.scss
+  }
+  includeJSFooterlibs {
+    bp_background_video = EXT:bp_background_video/Resources/Public/JavaScript/BpBackgroundVideo.min.js
+  }
+}

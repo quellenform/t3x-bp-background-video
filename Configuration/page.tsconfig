@@ -1,0 +1,7 @@
+# Page layouts
+TCEFORM.tt_content.frame_layout {
+  addItems {
+    hero = LLL:EXT:bp_background_video/Resources/Private/Language/locallang_db.xlf:tt_content.frame_layout.option.hero
+    maxhero = LLL:EXT:bp_background_video/Resources/Private/Language/locallang_db.xlf:tt_content.frame_layout.option.maxhero
+  }
+}
