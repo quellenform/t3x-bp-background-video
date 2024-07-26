@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" date="2024-07-26T10:48:00Z" product-name="bp_background_video">
+		<header />
+		<body>
+			<trans-unit id="tt_content.frame_layout.option.hero" resname="tt_content.frame_layout.option.hero">
+				<source>Hero</source>
+			</trans-unit>
+			<trans-unit id="tt_content.frame_layout.option.maxhero" resname="tt_content.frame_layout.option.maxhero">
+				<source>Hero (Full height)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

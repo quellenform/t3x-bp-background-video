@@ -1,0 +1,120 @@
+@import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/_variables";
+@import "EXT:bootstrap_package/Resources/Public/Contrib/bootstrap5/scss/_functions";
+@import "EXT:bootstrap_package/Resources/Public/Contrib/bootstrap5/scss/_variables";
+@import "EXT:bootstrap_package/Resources/Public/Contrib/bootstrap5/scss/mixins/_breakpoints";
+
+//
+// Background Video
+// --------------------------------------------------
+.frame-backgroundimage-container {
+	video {
+		width: 100%;
+		height: 100%;
+	}
+
+	&.frame-backgroundimage-parallax {
+		video {
+			position: fixed;
+		}
+	}
+}
+
+.frame-backgroundimage-behaviour-cover {
+	video {
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+}
+
+//
+// Hero Frame Layouts
+// --------------------------------------------------
+$hero-font-scale: 1.2 !default;
+$hero-font-scale-sm: 1.6 !default;
+$hero-font-scale-md: 1.6 !default;
+$hero-font-scale-lg: 1.6 !default;
+$hero-font-scale-xl: 2 !default;
+$hero-font-scale-xxl: 2 !default;
+
+:root {
+	--hero-font-scale: #{$hero-font-scale};
+}
+
+@include media-breakpoint-up('sm') {
+	:root {
+		--hero-font-scale: #{$hero-font-scale-md};
+	}
+}
+
+@include media-breakpoint-up('md') {
+	:root {
+		--hero-font-scale: #{$hero-font-scale-md};
+	}
+}
+
+@include media-breakpoint-up('lg') {
+	:root {
+		--hero-font-scale: #{$hero-font-scale-lg};
+	}
+}
+
+@include media-breakpoint-up('xl') {
+	:root {
+		--hero-font-scale: #{$hero-font-scale-xl};
+	}
+}
+
+@include media-breakpoint-up('xxl') {
+	:root {
+		--hero-font-scale: #{$hero-font-scale-xxl};
+	}
+}
+
+.frame-layout-hero,
+.frame-layout-maxhero {
+	font-size: calc(#{$font-size-base} * var(--hero-font-scale));
+
+	h1 {
+		font-size: calc(#{$h1-font-size} * var(--hero-font-scale));
+	}
+
+	h2 {
+		font-size: calc(#{$h2-font-size} * var(--hero-font-scale));
+	}
+
+	h3 {
+		font-size: calc(#{$h3-font-size} * var(--hero-font-scale));
+	}
+
+	h4 {
+		font-size: calc(#{$h4-font-size} * var(--hero-font-scale));
+	}
+
+	h5 {
+		font-size: calc(#{$h5-font-size} * var(--hero-font-scale));
+	}
+
+	h6 {
+		font-size: calc(#{$h6-font-size} * var(--hero-font-scale));
+	}
+
+	.frame-group-container:has(.frame-group-inner) {
+		min-height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		@include media-breakpoint-up('md') {
+			min-height: 600px;
+		}
+	}
+}
+
+.frame-layout-maxhero {
+	.frame-group-container:has(.frame-group-inner) {
+		// Fallback for browsers that do not support custom properties
+		min-height: 100vh;
+		// var(--vh) is set by JavaScript
+		min-height: calc(var(--vh, 1vh) * 100 - (var(--frame-spacing) * 2));
+	}
+}

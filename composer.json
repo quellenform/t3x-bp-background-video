@@ -1,0 +1,44 @@
+{
+	"name": "quellenform/t3x-bp-background-video",
+	"type": "typo3-cms-extension",
+	"description": "Background Video for Bootstrap Package",
+	"keywords": [
+		"TYPO3",
+		"extension"
+	],
+	"license": [
+		"GPL-3.0-or-later"
+	],
+	"homepage": "https://extensions.typo3.org/extension/bp-background-video",
+	"support": {
+		"source": "https://github.com/quellenform/t3x-bp-background-video",
+		"issues": "https://github.com/quellenform/t3x-bp-background-video/issues"
+	},
+	"authors": [
+		{
+			"name": "Stephan Kellermayr",
+			"email": "typo3@quellenform.at",
+			"role": "Developer",
+			"homepage": "https://www.quellenform.at/"
+		}
+	],
+	"require": {
+		"php": ">=7.4.0",
+		"typo3/cms-core": ">=12.4 || ^13",
+		"bk2k/bootstrap-package": ">=13.0.10 <15"
+	},
+	"replace": {
+		"typo3-ter/bp-background-video": "self.version"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	],
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "bp_background_video"
+		}
+	}
+}
