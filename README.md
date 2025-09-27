@@ -22,5 +22,6 @@ This is useful for the following content elements:
 4. Carefully check whether any of your individual templates affect the above-mentioned content types,
    and whether any relevant parts that are necessary for the rendering of icons are being overwritten!
 
-> **Hint:** Take a look at the provided Typoscript/Templates.
-> **Note:** Parallax is not (yet) supported for videos.
+**Hint:** Take a look at the provided Typoscript/Templates.
+
+**Note:** Parallax is not (yet) supported for videos.
