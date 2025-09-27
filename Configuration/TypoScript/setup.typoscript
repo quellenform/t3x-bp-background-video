@@ -1,3 +1,14 @@
+# Reorder partials (EXT:bootstrap_package/Configuration/TypoScript/General/plugin.typoscript)
+plugin.tx_bootstrappackage.view.partialRootPaths {
+  1 = EXT:bp_background_video/Resources/Private/Partials/
+  2 = {$plugin.bootstrap_package.view.templateRootPath}
+}
+
+# Add partial (EXT:bootstrap_package/Configuration/TypoScript/ContentElement/Helper/ContentElement.typoscript)
+lib.contentElement.partialRootPaths {
+  7 = EXT:bp_background_video/Resources/Private/Partials/ContentElements/
+}
+
 page {
   includeCSS {
     bp_background_video = EXT:bp_background_video/Resources/Public/Scss/_BpBackgroundVideo.scss
