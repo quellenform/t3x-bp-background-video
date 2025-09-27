@@ -1,5 +1,5 @@
 // Add automatic playback of background videos on iOS devices when energy-saving mode has been activated.
-window.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
 
   Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
     get: function () {
@@ -7,8 +7,8 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  var videoAutoplay = function (event) {
-    var videos = document.querySelectorAll('.backgroundvideo');
+  const videoAutoplay = () => {
+    const videos = document.querySelectorAll('.backgroundvideo');
     if (videos.length >= 1) {
       videos.forEach(function (element) {
         if (!element.playing) {
