@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Background Video for Bootstrap Package',
-    'description' => '',
+    'description' => 'Add background videos to EXT:bootstrap_package',
     'category' => 'fe',
     'state' => 'beta',
     'clearcacheonload' => true,
