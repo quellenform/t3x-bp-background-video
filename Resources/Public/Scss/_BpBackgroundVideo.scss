@@ -6,19 +6,16 @@
 //
 // Background Video
 // --------------------------------------------------
-.frame-backgroundimage-container {
+.carousel-backgroundimage,
+.frame-backgroundimage {
 	video {
 		width: 100%;
 		height: 100%;
-	}
-
-	&.frame-backgroundimage-parallax {
-		video {
-			position: fixed;
-		}
+		pointer-events: none;
 	}
 }
 
+.carousel-backgroundimage,
 .frame-backgroundimage-behaviour-cover {
 	video {
 		-o-object-fit: cover;
