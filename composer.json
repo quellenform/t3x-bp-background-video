@@ -9,7 +9,7 @@
 	"license": [
 		"GPL-3.0-or-later"
 	],
-	"homepage": "https://extensions.typo3.org/extension/bp-background-video",
+	"homepage": "https://extensions.typo3.org/extension/bp_background_video",
 	"support": {
 		"source": "https://github.com/quellenform/t3x-bp-background-video",
 		"issues": "https://github.com/quellenform/t3x-bp-background-video/issues"
