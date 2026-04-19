@@ -1,5 +1,5 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/quellenform/t3x-bp-background-video?style=for-the-badge)](https://packagist.org/packages/quellenform/t3x-bp-background-video)
-[![TYPO3](https://img.shields.io/badge/TYPO3-12|13-%23f49700.svg?style=for-the-badge)](https://get.typo3.org/)
+[![TYPO3](https://img.shields.io/badge/TYPO3-12|13|14-%23f49700.svg?style=for-the-badge)](https://get.typo3.org/)
 [![License](https://img.shields.io/packagist/l/quellenform/t3x-bp-background-video?style=for-the-badge)](https://packagist.org/packages/quellenform/t3x-bp-background-video)
 
 # Background Video for Bootstrap Package
