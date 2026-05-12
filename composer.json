@@ -24,7 +24,7 @@
 	],
 	"require": {
 		"typo3/cms-core": ">=12.4 <15 || 15.*.*@dev",
-		"bk2k/bootstrap-package": ">=13.0.10 <17 || 17.0.x-dev || dev-master"
+		"bk2k/bootstrap-package": ">=13.0.5 <17 || 17.0.x-dev || dev-master"
 	},
 	"replace": {
 		"typo3-ter/bp-background-video": "self.version"
