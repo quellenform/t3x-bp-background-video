@@ -1,7 +1,7 @@
 # Reorder partials (EXT:bootstrap_package/Configuration/TypoScript/General/plugin.typoscript)
 plugin.tx_bootstrappackage.view.partialRootPaths {
   1 = EXT:bp_background_video/Resources/Private/Partials/
-  2 = {$plugin.bootstrap_package.view.partialRootPaths}
+  2 = {$plugin.bootstrap_package.view.partialRootPath}
 }
 
 # Add partial (EXT:bootstrap_package/Configuration/TypoScript/ContentElement/Helper/ContentElement.typoscript)
